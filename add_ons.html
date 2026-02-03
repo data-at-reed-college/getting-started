@@ -1,0 +1,27 @@
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary custom-navbar">
+  <a class="navbar-brand" href="index.qmd" style="margin-left: 15px; font-weight: bold;">Workshop Home</a>
+  <ul class="navbar-nav mr-auto">
+    
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.reed.edu/data-at-reed/r/">More R Help</a>
+    </li>
+  </ul>
+  <a class="navbar-brand ms-auto" href="https://www.reed.edu/data-at-reed/">
+    <img src="images/datalab_logo_yellow.png" alt="Custom Logo" style="height: 50px;">
+  </a>
+</nav>
+
+<!-- Add space below navbar -->
+<div style="margin-bottom: 20px;"></div>
+
+<!-- Remove WebR history button -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var historyButton = document.getElementById("qwebrHistoryButton");
+    if (historyButton) {
+      historyButton.style.display = "none";
+    }
+  });
+</script>

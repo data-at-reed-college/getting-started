@@ -1,0 +1,19 @@
+---
+title: "What is RStudio?"
+---
+
+When you hear people talking about working in R, what they most likely mean is running the programming language of R inside a graphical interface called RStudio.
+
+RStudio is software that makes it easier to use R because it helps you keep track of what code you've written, what variables you've created, and has built in help function. When you are working with R you are typically opening RStudio and coding within its framework.
+
+## Where to Find RStudio
+
+To use RStudio at Reed you have two options: use the web-based version with your Reed login or download a copy of it to use on your personal computer. For more information on these see the R\@Reed webpage.
+
+Today it will probably be best to use Reed's R server unless you have already downloaded your own copy of R and RStudio. You can also follow along solely in this document for this lesson, but you are encouraged to run things in the server or a downloaded version in the future.
+
+## The Reed Server
+
+Reed hosts a web-based version of RStudio. [You can find the Reed R server here at rstudio.reed.edu](rstudio.reed.edu). You will be required to log in with your Reed Credentials (your username and password).
+
+[See this page for more details on the Reed RStudio server.](https://www.reed.edu/data-at-reed/r/r-at-reed/reed-rstudio-server.html)

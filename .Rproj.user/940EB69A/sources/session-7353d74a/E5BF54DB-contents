@@ -1,0 +1,27 @@
+---
+title: "What is R?"
+---
+
+R is a computer language. In that way, it is similar to Python, C++, or French. All of these have a meaningful words, syntax, and semantics. In R, the main parts of speech are equivalent to nouns and verbs; here those are called variables (or objects) and functions.
+
+Today we will go through some of the basics of this language, but there is additional help in understanding "scripts", which are essentially equivalent to essays, on the [Understanding Code page of Data\@Reed](https://www.reed.edu/data-at-reed/r/new-to-r/understanding-scripts.html).
+
+## Why Use R?
+
+R is widely used by people who analyze data. Common users are scientists, economists, marketers and many more. It is especially frequent in research in graduate school. The reason it is so widely used is because it is very "powerful" and is free. Powerful in this context refers to being able to handle large amounts of data, perform a vast array of statistical tests, and produce high quality data visualizations. It is also "open source" which means that all the code is available to everyone to use and modify how they see fit. Because of this there are thousands of custom packages that people have written to perform specialized statistical tasks. The community of people writing and creating in R is also very supportive, so it is easy to find help or tutorials for a task you want to do.
+
+## But speaking practically, why would one use R?
+
+R makes your work go faster. Often times we are trying to repeat analyses and make the same graphs, and the code you write in R is reusable and will make this process go much faster. You only need to write out the instructions once, and then from there you can change a few variable names and run your entire analysis, start to finish, in mere seconds.
+
+Also, because the community is large and supportive, you can often find premade scripts for what you want to do. You are encouraged to use these! There is no need to reinvent the wheel. Copy and paste is your friend when coding in R.
+
+[For more on why you should use R see here.](https://www.reed.edu/data-at-reed/r/new-to-r/why-r.html)
+
+------------------------------------------------------------------------
+
+This workshop is part of a series. If you would like to see previous workshops or see the topics of future workshops, please check the [workshop schedule](https://www.reed.edu/data-at-reed/r/new-to-r/workshop-schedule.html).
+
+If you have questions beyond what is covered in the workshops, please feel free to contact Josie at either **griffinj\@reed.edu** or **data\@reed.edu**.
+
+You can also drop in to the open hours at the DataLab for help with R or any other quantitative subject!

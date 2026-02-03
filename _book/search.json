@@ -1,0 +1,175 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "What is R?",
+    "section": "",
+    "text": "Why Use R?\nR is a computer language. In that way, it is similar to Python, C++, or French. All of these have a meaningful words, syntax, and semantics. In R, the main parts of speech are equivalent to nouns and verbs; here those are called variables (or objects) and functions.\nToday we will go through some of the basics of this language, but there is additional help in understanding “scripts”, which are essentially equivalent to essays, on the Understanding Code page of Data@Reed.\nR is widely used by people who analyze data. Common users are scientists, economists, marketers and many more. It is especially frequent in research in graduate school. The reason it is so widely used is because it is very “powerful” and is free. Powerful in this context refers to being able to handle large amounts of data, perform a vast array of statistical tests, and produce high quality data visualizations. It is also “open source” which means that all the code is available to everyone to use and modify how they see fit. Because of this there are thousands of custom packages that people have written to perform specialized statistical tasks. The community of people writing and creating in R is also very supportive, so it is easy to find help or tutorials for a task you want to do.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is R?</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#but-speaking-practically-why-would-one-use-r",
+    "href": "index.html#but-speaking-practically-why-would-one-use-r",
+    "title": "What is R?",
+    "section": "But speaking practically, why would one use R?",
+    "text": "But speaking practically, why would one use R?\nR makes your work go faster. Often times we are trying to repeat analyses and make the same graphs, and the code you write in R is reusable and will make this process go much faster. You only need to write out the instructions once, and then from there you can change a few variable names and run your entire analysis, start to finish, in mere seconds.\nAlso, because the community is large and supportive, you can often find premade scripts for what you want to do. You are encouraged to use these! There is no need to reinvent the wheel. Copy and paste is your friend when coding in R.\nFor more on why you should use R see here.\n\nThis workshop is part of a series. If you would like to see previous workshops or see the topics of future workshops, please check the workshop schedule.\nIf you have questions beyond what is covered in the workshops, please feel free to contact Josie at either griffinj@reed.edu or data@reed.edu.\nYou can also drop in to the open hours at the DataLab for help with R or any other quantitative subject!",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is R?</span>"
+    ]
+  },
+  {
+    "objectID": "rstudio.html",
+    "href": "rstudio.html",
+    "title": "What is RStudio?",
+    "section": "",
+    "text": "Where to Find RStudio\nWhen you hear people talking about working in R, what they most likely mean is running the programming language of R inside a graphical interface called RStudio.\nRStudio is software that makes it easier to use R because it helps you keep track of what code you’ve written, what variables you’ve created, and has built in help function. When you are working with R you are typically opening RStudio and coding within its framework.\nTo use RStudio at Reed you have two options: use the web-based version with your Reed login or download a copy of it to use on your personal computer. For more information on these see the R@Reed webpage.\nToday it will probably be best to use Reed’s R server unless you have already downloaded your own copy of R and RStudio. You can also follow along solely in this document for this lesson, but you are encouraged to run things in the server or a downloaded version in the future.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>What is RStudio?</span>"
+    ]
+  },
+  {
+    "objectID": "rstudio.html#the-reed-server",
+    "href": "rstudio.html#the-reed-server",
+    "title": "What is RStudio?",
+    "section": "The Reed Server",
+    "text": "The Reed Server\nReed hosts a web-based version of RStudio. You can find the Reed R server here at rstudio.reed.edu. You will be required to log in with your Reed Credentials (your username and password).\nSee this page for more details on the Reed RStudio server.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>What is RStudio?</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html",
+    "href": "cloud.html",
+    "title": "Cloud Computing",
+    "section": "",
+    "text": "What is The Cloud?\nCloud computing is using web-based services for computing purposes like creating and storing files or running apps. When you use the “cloud” you are accessing computers more powerful than your own (remote servers) over the internet. Cloud computing is offered by companies like Google, Amazon, and Microsoft who maintain large server farms where your files are remotely hosted. To use their cloud you either buy space or they will offer you a certain amount of space for free.\nReed gives you access to cloud computing via Google. With this service, you have access to your email, Google Docs, Sheets, Drive and more. Any files you create or upload into Drive are stored and managed by Google on their servers. For example, if you create a Google Doc, you are creating a file in a space that is hosted by Google and that you can access from anywhere by logging in to your Google account.\nBy contrast, if you create a document in Word, that is generated and stored on your own computer. Reed gives you access to Word as a downloadable program, so it and any documents it creates, live on your personal computer. We refer to things that are not accessible via the internet and only on your personal device as being “local”.\nTo move between a cloud-based platform and your local computer, you need to upload or download whatever file you’re using. For example, if you drag and drop a file created in Word to your Google Drive, you are uploading that file to the cloud. If you download a file off of Moodle, you are moving it from Moodle’s cloud-based platform to your local computer.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Cloud Computing</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html#both-cloud-and-local-are-useful",
+    "href": "cloud.html#both-cloud-and-local-are-useful",
+    "title": "Cloud Computing",
+    "section": "Both Cloud and Local are Useful",
+    "text": "Both Cloud and Local are Useful\nIf throw your computer into a river, you will lose everything that is stored locally. You cannot throw the cloud into a river, so even though your computer is now aquatic, anything you have stored in the cloud will be retrievable on a new computer. However, if you are wandering in the desert without any internet connection, you will only have access to everything that is on your local computer but not anything stored in the cloud. You will need to download your music ahead of time to have a soundtrack for your wanderings.\nSo, you can see that it is probably a good idea to have back-ups of any files you really care about stored in the cloud, but there are also times when it is useful to have things downloaded onto your local machine. Having important files stored in multiple places is always a good idea.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Cloud Computing</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html#the-r-server",
+    "href": "cloud.html#the-r-server",
+    "title": "Cloud Computing",
+    "section": "The R Server",
+    "text": "The R Server\nReed has a version of R is hosted on the web and that we manage for you, so it is a cloud-based platform. You can access it by going to rstudio.reed.edu. Anytime you are connected to the internet, you can sign onto the server with your Reed credentials (the same username and password that you use for your Reed email).\nOn the R Server we have already installed many packages that you will want to use, but the server does not automatically have access to your local computer. If you have files on your local computer that you’d like to add to your R Server account, you can do that by uploading them. We’ll go over how to do that in [the next workshop] (https://reed-datalab.quarto.pub/loading-data–understanding-data/).",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Cloud Computing</span>"
+    ]
+  },
+  {
+    "objectID": "downloading.html",
+    "href": "downloading.html",
+    "title": "Downloading R and RStudio",
+    "section": "",
+    "text": "R\nYou can download a version of R/RStudio to your own computer if you’d prefer that over the R Server. Since they are two distinct things (a language and an application for running that language), you will need to download them separately. First need to download R and then download RStudio. Both are free, open source, and updated regularly.\nTo download R, go to the CRAN (Comprehensive R Archive Network) page and under Downloads, choose the correct version for your computer, likely Mac or Windows. Then, if you are a Windows user, click “install R for the first time”. If you are a Mac user, you will see a list of available versions of R depending on your operating system, but frequently the top download is what you want. For both Mac and Windows, double click and install R after downloading.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Downloading R and RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "downloading.html#rstudio",
+    "href": "downloading.html#rstudio",
+    "title": "Downloading R and RStudio",
+    "section": "RStudio",
+    "text": "RStudio\nNext, download RStudio from the Posit website. This website should recognize the correct version for your computer and will give you a single download button. It will also give you a link to download R if you haven’t already done so. Install RStudio after downloading by double clicking the icon and agreeing to the terms.\nSee this page for more details about downloading and using RStudio on your desktop computer.\n\n\n\n\n\nR will periodically tell you to update and when you need to do this, just go to the same sites to download the most recent versions.",
+    "crumbs": [
+      "Welcome to R",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Downloading R and RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "rstudio_panes.html",
+    "href": "rstudio_panes.html",
+    "title": "RStudio Panes",
+    "section": "",
+    "text": "Workshop Home\n  \n    \n    \n      More R Help\n    \n  \n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\nTypically when using RStudio you will see four panes. Using a metaphor of building a house instead for creating a graph, here is what each pane does:\n\nThe Script (top left): This is the main window you work in. Type your code here. This is the only code that will save. You want this script to be something that you can press a button and run, so make sure it doesn’t contain errors or extraneous code. It is like the blueprint for a house. It is something that you should be able to pass off to another person and they can understand and use it. (Comments help with this, more on that later.)\nThe Console (bottom left): This is like your scratch paper. You can type code here, but it will not save. This area shows you error messages in red or displays your code in blue if it ran successfully.\nThe Variable Environment (top right): This is like your inventory. Any variables that you create will show up here with a preview of what is inside them. So, if you load in a spreadsheet, you will be able to see its name and how many rows and columns it is here. The small broom icon is useful for clearing out all variables between projects.\nThe Bottom Right: This window has many functions, but chief among them is displaying your finished product, so your metaphorical house or your literal graph. It also is where you can view what files and packages you are working with (more on those later). It’s other great feature is the Help tab where you can see documentation for any R command. You can search for them or a good trick is to type ?[command] into the console, for example ?sum will explain what the sum function does.\n\n\n\n\n\n\nLittle Things:\n\nFor three of the panes, if you want to delete what is currently there, press the little broom icon on that pane.\nYou can click through the graphs you’ve made using the arrow keys in the bottom right pane.\nYou can press the Zoom button to pop the graph into a new window.\nChanging files in the file browser is the same as changing them in Finder (Mac) or File Explorer (Windows).",
+    "crumbs": [
+      "Using RStudio",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>RStudio Panes</span>"
+    ]
+  },
+  {
+    "objectID": "coding.html",
+    "href": "coding.html",
+    "title": "Coding Basics",
+    "section": "",
+    "text": "Workshop Home\n  \n    \n    \n      More R Help\n    \n  \n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\nIf you can write out instructions you can code in R. All you’re doing in R is telling the computer what you want done, step-by-step. Each line of code is an instruction: store a number, calculate a total, filter a list, etc. The key is breaking tasks into small, logical steps.\nHere’s an example of clicking through to change the aesthetics of a graph in Google Sheets. On the right is how you would make a graph in R. Each time you want to add or change something on the graph, you just add another line of code to specify the change. Basically, you are writing out everything that is happening in the video on the left.\n\n\n\n\nThis may seem like it would be long and tedious, but remember that once you have code, you can easily go back and swap out variables. You don’t need to start from scratch each time.\n\nPlus, not everything takes a long time to write out in R. Here are videos of people performing ANOVAs in Excel. The videos are not particularly short. On the other hand, the right side shows what this would look like if done in R.\n\n\n\n\n(We will discuss more on graphs in Week 3.)",
+    "crumbs": [
+      "Using RStudio",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coding Basics</span>"
+    ]
+  },
+  {
+    "objectID": "runningR.html",
+    "href": "runningR.html",
+    "title": "Running Code",
+    "section": "",
+    "text": "Success = Blue; Failure = Red\nWithin RStudio you can run code two ways:\nYou need to have your cursor clicked anywhere on the line, it doesn’t have to be the end of a line. You can also highlight lines and press Command/CTRL + Enter to run just the highlighted section. This is useful for running multiple lines at once or just running part of a line.\nWithin this tutorial there will also be boxes like the one below that run code. For these, you have to press “Run Code” button. The result of the code will print out below the box, just as it would in R. You can also type in the box and it will execute your added code and give error messages as appropriate.\nTry running this code. Then try changing it to subtract -, multiply *, divide /, or use an exponent ^. You can also use () for dictating order of operations.\n(The boxes are from an R package {webR} that allows you to run code without actually having loaded R, so if the server isn’t working for and/or you don’t have RStudio downloaded, you can still run the code within these boxes).\nWhen R code runs successfully, you will see the line appear in blue in the console. When it does not, you will see an error message in red.\nTry changing the code to see what happens when something runs unsuccessfully:\nR’s error messages are notoriously terrible. There is no way to sugarcoat it, they just suck. If you are really stuck, try copying and pasting the error message into Google*; it is very likely someone has had that error before and will have helpful instructions for you to solve your problem. Stack Exchange is a particularly useful website for this.\n*ChatGPT works well for this too, but if you’re doing an assignment, make sure your professor is okay with you using it first.",
+    "crumbs": [
+      "Using RStudio",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Running Code</span>"
+    ]
+  },
+  {
+    "objectID": "runningR.html#success-blue-failure-red",
+    "href": "runningR.html#success-blue-failure-red",
+    "title": "Running Code",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Using RStudio",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Running Code</span>"
+    ]
+  },
+  {
+    "objectID": "future.html",
+    "href": "future.html",
+    "title": "Future",
+    "section": "",
+    "text": "Workshop Home\n  \n    \n    \n      More R Help\n    \n  \n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\nNext time we will learn about how to create variables within R and how to use functions to perform simple actions, like finding a mean. I advise you to either try out the server or download R/RStudio before then. However, the coding that we do will largely be within an interactive document, so it is not imperative for next week.\nIf you want to look ahead in R, you can go through the New to R page on the Data@Reed website.\nAnd if you’re looking for specific help, don’t forget about the DataLab!",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Going Forward</span>"
+    ]
+  },
+  {
+    "objectID": "completion.html",
+    "href": "completion.html",
+    "title": "Completion Confirmation",
+    "section": "",
+    "text": "Workshop Completion\nPlease complete this form to receive confirmation that you’ve completed the workshop.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Completion Confirmation</span>"
+    ]
+  },
+  {
+    "objectID": "completion.html#workshop-completion",
+    "href": "completion.html#workshop-completion",
+    "title": "Completion Confirmation",
+    "section": "",
+    "text": "Loading…",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Completion Confirmation</span>"
+    ]
+  }
+]

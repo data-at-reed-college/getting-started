@@ -1,0 +1,27 @@
+---
+title: "Coding Basics"
+---
+
+If you can write out instructions you can code in R. All you're doing in R is telling the computer what you want done, step-by-step. Each line of code is an instruction: store a number, calculate a total, filter a list, etc. The key is breaking tasks into small, logical steps.
+
+Here's an example of clicking through to change the aesthetics of a graph in Google Sheets. On the right is how you would make a graph in R. Each time you want to add or change something on the graph, you just add another line of code to specify the change. Basically, you are writing out everything that is happening in the video on the left.
+
+::: {.iframe-container style="border: 1px solid #ccc; padding: 10px; text-align: center; background: #f9f9f9; width: fit-content; margin: auto;"}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQVMAgQk0eomQgvDZZS9zAsWbKO_nkoonubmjaLxuAjCLlCzd03drTEocZCOjvIfNaI9-H4M_yLH4V6/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+:::
+
+This may seem like it would be long and tedious, but remember that once you have code, you can easily go back and swap out variables. You don't need to start from scratch each time.
+
+------------------------------------------------------------------------
+
+Plus, not everything takes a long time to write out in R. Here are videos of people performing ANOVAs in Excel. The videos are not particularly short. On the other hand, the right side shows what this would look like if done in R.
+
+::: {.iframe-container style="border: 1px solid #ccc; padding: 10px; text-align: center; background: #f9f9f9; width: fit-content; margin: auto;"}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQUt-KchWaZ7eSDy11y22RfJVDN5wp3IG6zQUUczQsTRfQC5_SOAjJHi0n7ejpWl2tpXXy6QxsmPjnP/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+:::
+
+(We will discuss more on graphs in Week 3.)

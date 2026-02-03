@@ -1,0 +1,12 @@
+- source: project
+  quarto-pub:
+    - id: 2e7b3c87-5a37-49cf-8ba5-798c88b85a0c
+      url: https://griffinjosie.quarto.pub/intro_workshop
+    - id: 7b8e4723-f753-44f8-8950-b30f4577a332
+      url: https://reed-datalab.quarto.pub/intro-r-workshop
+    - id: 9aaabf70-dad3-4075-9ad3-a6672919641c
+      url: https://reed-datalab.quarto.pub/r-workshop-series-week-1
+    - id: 1b3b1c8c-fbfa-46ae-8f06-ead93b025ca9
+      url: https://reed-datalab.quarto.pub/getting_started
+    - id: 65b01b01-b3e6-42c9-be22-68f848146146
+      url: https://reed-datalab.quarto.pub/getting-started-with-r

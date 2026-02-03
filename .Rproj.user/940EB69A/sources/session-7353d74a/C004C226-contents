@@ -1,0 +1,45 @@
+---
+title: "Running Code"
+---
+
+Within RStudio you can run code two ways:
+
+-   Click the "Run" button at the top right of the script pane.
+
+-   Have your cursor on the line you want to run and press:
+
+-   `Command + Enter` for Mac
+
+-   `CTRL + Enter` for PC
+
+You need to have your cursor clicked anywhere on the line, it doesn't have to be the end of a line. You can also highlight lines and press `Command/CTRL + Enter` to run just the highlighted section. This is useful for running multiple lines at once or just running part of a line.
+
+Within this tutorial there will also be boxes like the one below that run code. For these, you have to press "Run Code" button. The result of the code will print out below the box, just as it would in R. You can also type in the box and it will execute your added code and give error messages as appropriate.
+
+Try running this code. Then try changing it to subtract `-`, multiply `*`, divide `/`, or use an exponent `^`. You can also use `()` for dictating order of operations.
+
+```{webr-r}
+1 + 1
+```
+
+(The boxes are from an R package {webR} that allows you to run code without actually having loaded R, so if the server isn't working for and/or you don't have RStudio downloaded, you can still run the code within these boxes).
+
+<br><br>
+
+## Success = [Blue]{style="color: blue;"}; Failure = [Red]{style="color: red;"}
+
+When R code runs successfully, you will see the line appear in blue in the console. When it does not, you will see an error message in red.
+
+::: {style="display: flex; justify-content: space-between;"}
+<img src="images/one_plus_one.png" alt="Image 1" style="width: 370px; margin-right: 100px;"/> <img src="images/one_plus_cactus.png" alt="Image 2" style="width: 370px;"/>
+:::
+
+Try changing the code to see what happens when something runs unsuccessfully:
+
+```{webr-r}
+1 + 1
+```
+
+R's error messages are notoriously terrible. There is no way to sugarcoat it, they just suck. If you are really stuck, try copying and pasting the error message into Google\*; it is very likely someone has had that error before and will have helpful instructions for you to solve your problem. Stack Exchange is a particularly useful website for this.
+
+\*ChatGPT works well for this too, but if you're doing an assignment, make sure your professor is okay with you using it first.
